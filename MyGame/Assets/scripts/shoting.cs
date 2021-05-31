@@ -14,6 +14,7 @@ public class shoting : MonoBehaviour
 
     public GameObject ammo;
     public Transform shotDir;
+    public Joystick joystick;
 
     private float timeShot;
     public float startTime;
@@ -26,8 +27,8 @@ public class shoting : MonoBehaviour
     }
     void Update()
     {
-        Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+  
+        float rotateZ = Mathf.Atan2(joystick.Vertical,joystick.Horizontal) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
 
         
@@ -47,7 +48,7 @@ public class shoting : MonoBehaviour
   
         
        
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             i = 0;
             fireFrequency = StartCoroutine(FireDelay());
@@ -56,25 +57,24 @@ public class shoting : MonoBehaviour
         
     }
     public int i = 0;
-    public int Ammo ;
-    private int am = 0;
-    public float reload;
+    public int Reload;
+    private int reload = 0;
+    public float ReloadTime;
     IEnumerator FireDelay()
     {
         while (i<10)
         {
+            reload += 1;
             Instantiate(ammo, shotDir.position, transform.rotation) ;
             yield return new WaitForSeconds(startTime);
-            am+= 1;
             if (Input.GetKey(KeyCode.R))
             {
                 i=10;
             }
-            if (am == Ammo)
+            if (reload == Reload)
             {
-                yield return new WaitForSeconds(reload);
-                am = 0;
-
+                yield return new WaitForSeconds(ReloadTime);
+                reload = 0;
             }
 
         }
