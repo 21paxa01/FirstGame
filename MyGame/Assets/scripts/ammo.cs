@@ -6,6 +6,7 @@ public class ammo : MonoBehaviour
 {
     public float speed;
     public float destroyTime;
+
     void Start()
     {
         Invoke("DestroyAmmo", destroyTime);
@@ -21,12 +22,5 @@ public class ammo : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.name == "default_zombie(Clone)"|| other.name == "bibo_zombie(Clone)")
-        {
-            Destroy(other.gameObject);
-            DestroyAmmo();
-        }
-    }
+    
 }

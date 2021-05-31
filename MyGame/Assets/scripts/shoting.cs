@@ -56,15 +56,25 @@ public class shoting : MonoBehaviour
         
     }
     public int i = 0;
+    public int Ammo ;
+    private int am = 0;
+    public float reload;
     IEnumerator FireDelay()
     {
         while (i<10)
         {
             Instantiate(ammo, shotDir.position, transform.rotation) ;
             yield return new WaitForSeconds(startTime);
+            am+= 1;
             if (Input.GetKey(KeyCode.R))
             {
                 i=10;
+            }
+            if (am == Ammo)
+            {
+                yield return new WaitForSeconds(reload);
+                am = 0;
+
             }
 
         }
