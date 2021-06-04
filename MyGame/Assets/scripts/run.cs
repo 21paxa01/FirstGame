@@ -6,6 +6,8 @@ public class run : MonoBehaviour
     
     public Rigidbody2D rb;
     public Animator anim;
+    public Joystick joystick_move;
+    public Joystick joystick_shot;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,19 +26,33 @@ public class run : MonoBehaviour
     }
     
     public Vector2 moveVector;
+    public Vector2 moveVector_1;
     public int speed = 3;
+    private bool right = false;
+    private bool left = false;
     void Walk()
     {
-        moveVector.x = Input.GetAxisRaw("Horizontal");
+        float rotateZ = Mathf.Atan2(joystick_move.Vertical, joystick_move.Horizontal) * Mathf.Rad2Deg;
+        moveVector.x = joystick_move.Horizontal;
+        if(rotateZ < 90 && rotateZ > -90)
+        {
+            right=true;
+            left = false;
+        }
+        else
+        {
+            right = false;
+            left = true;
+        }
         if (transform.position.x > -30 && transform.position.x < 36)
         {
             rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
         }
-        else if(transform.position.x <= -30&& Input.GetKey(KeyCode.D))
+        else if(transform.position.x <= -30&& right)
         {
             rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
         }
-        else if (transform.position.x >= 36 && Input.GetKey(KeyCode.A))
+        else if (transform.position.x >= 36 && left)
         {
             rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
         }
@@ -50,8 +66,13 @@ public class run : MonoBehaviour
     public bool faceRight = true;
     void Reflect()
     {
-        Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        if ((rb.velocity.x < difference.x && !faceRight) || (rb.velocity.x > difference.x && faceRight))
+        moveVector_1.x = joystick_shot.Horizontal;
+        if (moveVector_1.x>0 && !faceRight )
+        {
+            transform.Rotate(0f, 180f, 0f);
+            faceRight = !faceRight;
+        }
+        if (moveVector_1.x < 0 && faceRight)
         {
             transform.Rotate(0f, 180f, 0f);
             faceRight = !faceRight;
@@ -59,9 +80,11 @@ public class run : MonoBehaviour
     }
     
     public int jumpForce = 10;
+    
     void Jump()
     {
-        if (onGround && Input.GetKeyDown(KeyCode.Space))
+        float verticalMove = joystick_move.Vertical;
+        if (onGround && verticalMove>=0.5f)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
