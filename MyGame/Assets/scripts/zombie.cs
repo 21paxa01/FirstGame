@@ -8,7 +8,11 @@ public class zombie : MonoBehaviour
     public Transform player;
     public Animator anim;
     public bool fight ;
-    
+    public int hp;
+
+    public Transform head_spawn;
+    public GameObject head;
+
 
     public float speed;
     void Start()
@@ -43,18 +47,17 @@ public class zombie : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
         }
     }
-    public int HP;
-    private int hp=0;
+    int a = 0;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name == "pistol_bullet(Clone)")
         {
-            hp+= 1;
             Destroy(other.gameObject);
-            if (hp == HP)
+            a += 1;
+            if (a == hp)
             {
+                a = 0;
                 Destroy(gameObject);
-                hp=0;
             }
         }
     }

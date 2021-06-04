@@ -6,6 +6,7 @@ public class ammo : MonoBehaviour
 {
     public float speed;
     public float destroyTime;
+
     void Start()
     {
         Invoke("DestroyAmmo", destroyTime);
