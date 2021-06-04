@@ -19,6 +19,7 @@ public class shoting : MonoBehaviour
     private float timeShot;
     public float startTime;
     Coroutine fireFrequency;
+    private bool shot;
 
     public bool faceRight = true;
     void Start()
@@ -45,10 +46,22 @@ public class shoting : MonoBehaviour
 
         }
         transform.localScale = LocalScale;
+
+        if(joystick.Vertical==0 && joystick.Horizontal == 0)
+        {
+            transform.localRotation = Quaternion.Euler(0, 0, rotateZ);
+        }
   
         
-       
-        if (Input.GetMouseButtonDown(1))
+        if(joystick.Vertical != 0 || joystick.Horizontal != 0)
+        {
+            shot = true;
+        }
+        else
+        {
+            shot = false;
+        }
+        if (shot==true)
         {
             i = 0;
             fireFrequency = StartCoroutine(FireDelay());
@@ -67,7 +80,7 @@ public class shoting : MonoBehaviour
             reload += 1;
             Instantiate(ammo, shotDir.position, transform.rotation) ;
             yield return new WaitForSeconds(startTime);
-            if (Input.GetKey(KeyCode.R))
+            if (shot==false)
             {
                 i=10;
             }

@@ -44,15 +44,15 @@ public class run : MonoBehaviour
             right = false;
             left = true;
         }
-        if (transform.position.x > -30 && transform.position.x < 36)
+        if (transform.position.x > -4.25f && transform.position.x < 15.96f)
         {
             rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
         }
-        else if(transform.position.x <= -30&& right)
+        else if(transform.position.x <= -4.25f&& right)
         {
             rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
         }
-        else if (transform.position.x >= 36 && left)
+        else if (transform.position.x >= 15.96f && left)
         {
             rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
         }

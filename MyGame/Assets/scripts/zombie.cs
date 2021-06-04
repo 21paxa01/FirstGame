@@ -16,11 +16,11 @@ public class zombie : MonoBehaviour
         physik = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
-
+    public float dist_to_player;
     void Update()
     {
         float distToPlayer = Vector2.Distance(transform.position, player.position);
-        if (distToPlayer <= 1.2f)
+        if (distToPlayer <= dist_to_player)
         {
             physik.velocity = new Vector2(0, 0);
             fight = true;
