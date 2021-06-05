@@ -27,12 +27,12 @@ public class spawn : MonoBehaviour
     {
         SpawnPoint();
         Zombies();
-        if (Input.GetMouseButtonDown(1))
-        {
-            a = 0;
-            spawn_zombie = StartCoroutine(Spawn());
-
-        }
+       
+    }
+    public void spawn_zombies()
+    {
+        a = 0;
+        spawn_zombie = StartCoroutine(Spawn());
     }
     public int a = 0;
     IEnumerator Spawn()
