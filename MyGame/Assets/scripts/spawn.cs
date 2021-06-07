@@ -19,7 +19,7 @@ public class spawn : MonoBehaviour
     
     void Start()
     {
-        
+        //Time.timeScale = 0f;
     }
 
 
@@ -29,10 +29,15 @@ public class spawn : MonoBehaviour
         Zombies();
        
     }
+    private int b = 0;
     public void spawn_zombies()
     {
         a = 0;
-        spawn_zombie = StartCoroutine(Spawn());
+        if (b < 1)
+        {
+            spawn_zombie = StartCoroutine(Spawn());
+        }
+        b = 2;
     }
     public int a = 0;
     IEnumerator Spawn()
