@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: 572a4f321eb8f18449ad4933baf92321
+guid: 110741fd17c78d34e9ba5e63cf646ced
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 731487323329709111
-    second: bibo rans(2)_0
+      213: -3405495423853031273
+    second: 2(1)_0
   - first:
-      213: -8710951072158709638
-    second: bibo rans(2)_1
+      213: 9165967753392850905
+    second: 2(1)_1
   - first:
-      213: -1542400233906019792
-    second: bibo rans(2)_2
+      213: -6686201451419068826
+    second: 2(1)_2
   - first:
-      213: -3712901685482648603
-    second: bibo rans(2)_3
+      213: 5746061630353510341
+    second: 2(1)_3
   - first:
-      213: 4978691961714714385
-    second: bibo rans(2)_4
+      213: 2471143765736062209
+    second: 2(1)_4
   - first:
-      213: 3469390322667894139
-    second: bibo rans(2)_5
+      213: 915840234694141435
+    second: 2(1)_5
   - first:
-      213: -130663513899455839
-    second: bibo rans(2)_6
+      213: 3324202024763158433
+    second: 2(1)_6
   - first:
-      213: 8071474601650027787
-    second: bibo rans(2)_7
+      213: -5864447434299300494
+    second: 2(1)_7
+  - first:
+      213: 4839483233118674483
+    second: 2(1)_8
+  - first:
+      213: 6115056653880935723
+    second: 2(1)_9
+  - first:
+      213: 2443449295866709185
+    second: 2(1)_10
+  - first:
+      213: -2191057832446712028
+    second: 2(1)_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,169 +139,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bibo rans(2)_0
+      name: 2(1)_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 193
-        width: 27
-        height: 43
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 734c4c058d3c62a00800000000000000
-      internalID: 731487323329709111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bibo rans(2)_1
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 193
-        width: 27
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a780c28072c7c1780800000000000000
-      internalID: -8710951072158709638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bibo rans(2)_2
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 193
-        width: 27
-        height: 43
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0326d84c82b489ae0800000000000000
-      internalID: -1542400233906019792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bibo rans(2)_3
-      rect:
-        serializedVersion: 2
-        x: 156
-        y: 192
-        width: 27
-        height: 43
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5eb8bdeb69f197cc0800000000000000
-      internalID: -3712901685482648603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bibo rans(2)_4
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 192
-        width: 27
-        height: 43
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 117291006fdd71540800000000000000
-      internalID: 4978691961714714385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bibo rans(2)_5
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 133
-        width: 21
-        height: 21
+        x: 22
+        y: 105
+        width: 33
+        height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b753cc9ed10c52030800000000000000
-      internalID: 3469390322667894139
+      spriteID: 790950184ff3db0d0800000000000000
+      internalID: -3405495423853031273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibo rans(2)_6
+      name: 2(1)_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 134
-        width: 21
-        height: 21
+        x: 65
+        y: 105
+        width: 33
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aa2be4f93acf2ef0800000000000000
-      internalID: -130663513899455839
+      spriteID: 9d78aabbb1f043f70800000000000000
+      internalID: 9165967753392850905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibo rans(2)_7
+      name: 2(1)_2
       rect:
         serializedVersion: 2
-        x: 82
-        y: 135
-        width: 21
-        height: 21
+        x: 103
+        y: 105
+        width: 33
+        height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0dffecb263a30070800000000000000
-      internalID: 8071474601650027787
+      spriteID: 66617777437d533a0800000000000000
+      internalID: -6686201451419068826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 105
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf09bedb9c1ebf40800000000000000
+      internalID: 5746061630353510341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 105
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d7e9989244b4220800000000000000
+      internalID: 2471143765736062209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 48
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf564f357d7b5bc00800000000000000
+      internalID: 915840234694141435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af64af0120f12e20800000000000000
+      internalID: 3324202024763158433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 48
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275a3a2312c4d9ea0800000000000000
+      internalID: -5864447434299300494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 39
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e5f7e1c5c492340800000000000000
+      internalID: 4839483233118674483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_9
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 19
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2546f3b0ab0dd450800000000000000
+      internalID: 6115056653880935723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_10
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 18
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c440da4030e8e120800000000000000
+      internalID: 2443449295866709185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2(1)_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 48
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4272da6928cc791e0800000000000000
+      internalID: -2191057832446712028
       vertices: []
       indices: 
       edges: []

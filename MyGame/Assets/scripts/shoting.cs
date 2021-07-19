@@ -28,14 +28,19 @@ public class shoting : MonoBehaviour
     }
     void Update()
     {
-
-        float rotateZ = Mathf.Atan2(joystick.Vertical, joystick.Horizontal) * Mathf.Rad2Deg;
+  
+        float rotateZ = Mathf.Atan2(joystick.Vertical,joystick.Horizontal) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
+<<<<<<< HEAD
         if (reload == Reload)
         {
             fireFrequency = StartCoroutine(RELOAD());
         }
 
+=======
+
+        
+>>>>>>> parent of 9d58dac (ноум)
 
         Vector3 LocalScale = Vector3.one;
         if (rotateZ > 90 || rotateZ < -90)
@@ -89,14 +94,9 @@ public class shoting : MonoBehaviour
     {
         while (i<10)
         {
-            if (reload < Reload)
-            {
-                reload += 1;
-                float rotateZ = Mathf.Atan2(joystick.Vertical, joystick.Horizontal) * Mathf.Rad2Deg;
-                transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
-                Instantiate(ammo, shotDir.position, transform.rotation);
-                yield return new WaitForSeconds(startTime);
-            }
+            reload += 1;
+            Instantiate(ammo, shotDir.position, transform.rotation) ;
+            yield return new WaitForSeconds(startTime);
             if (shot==false)
             {
                 i=10;

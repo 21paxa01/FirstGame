@@ -6,6 +6,7 @@ public class ammo : MonoBehaviour
 {
     public float speed;
     public float destroyTime;
+<<<<<<< HEAD
     public float death_time;
     public bool death;
     public Animator anim;
@@ -15,6 +16,11 @@ public class ammo : MonoBehaviour
         Invoke("DestroyAmmo", destroyTime);
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+=======
+    void Start()
+    {
+        Invoke("DestroyAmmo", destroyTime);
+>>>>>>> parent of 9d58dac (ноум)
     }
 
     
@@ -30,21 +36,5 @@ public class ammo : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.name == "road u")
-        {
-            StartCoroutine(Die());
-        }
-    }
-    IEnumerator Die()
-    {
-        speed = 0;
-        death = true;
-        anim.SetBool("death", death);
-        yield return new WaitForSeconds(death_time);
-        Destroy(gameObject);
-        
-    }
-
+    
 }
