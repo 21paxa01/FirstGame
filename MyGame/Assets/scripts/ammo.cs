@@ -6,6 +6,7 @@ public class ammo : MonoBehaviour
 {
     public float speed;
     public float destroyTime;
+<<<<<<< HEAD
     public float death_time;
     public bool death;
     public Animator anim;
@@ -16,6 +17,21 @@ public class ammo : MonoBehaviour
     }
 
     
+=======
+
+    public float death_time;
+    public bool death;
+    public Animator anim;
+
+
+    void Start()
+    {
+        Invoke("DestroyAmmo", destroyTime);
+
+    }
+
+
+>>>>>>> parent of d90c765 (delete)
     void Update()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
@@ -25,6 +41,7 @@ public class ammo : MonoBehaviour
     {
         Destroy(gameObject);
     }
+<<<<<<< HEAD
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name == "road u")
@@ -43,3 +60,9 @@ public class ammo : MonoBehaviour
     }
 
 }
+=======
+}
+
+
+
+>>>>>>> parent of d90c765 (delete)

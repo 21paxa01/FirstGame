@@ -72,21 +72,21 @@ LightmapSettings:
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
-    m_BakeBackend: 1
+    m_BakeBackend: 0
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
-    m_PVRSampleCount: 512
+    m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentSampleCount: 500
     m_PVREnvironmentReferencePointCount: 2048
-    m_PVRFilteringMode: 1
-    m_PVRDenoiserTypeDirect: 1
-    m_PVRDenoiserTypeIndirect: 1
-    m_PVRDenoiserTypeAO: 1
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
-    m_PVREnvironmentMIS: 1
+    m_PVREnvironmentMIS: 0
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -124,7 +124,10 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &6586409
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,6 +342,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+<<<<<<< HEAD
   - eventID: 3
     callback:
       m_PersistentCalls:
@@ -355,6 +359,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &179017861
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +443,7 @@ Transform:
   m_Father: {fileID: 1280245516}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &210235478
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,6 +519,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210235478}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &217524169
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,7 +644,11 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IsTrigger: 1
+=======
+  m_IsTrigger: 0
+>>>>>>> parent of d90c765 (delete)
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -666,7 +679,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303200956}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 12.44, y: 0, z: 20.56054}
+=======
+  m_LocalPosition: {x: 11.33, y: 0, z: 20.56054}
+>>>>>>> parent of d90c765 (delete)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1064776805}
@@ -686,7 +703,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   default_zombie: {fileID: 0}
   bibo_zombie: {fileID: 0}
+<<<<<<< HEAD
   bo_zombie: {fileID: 0}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  bo_zombie: {fileID: 0}
+<<<<<<< HEAD
+  karl_zombie: {fileID: 0}
+  lara_zombie: {fileID: 0}
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 1c1f832 (pasha)
+>>>>>>> parent of d90c765 (delete)
   spawn_point_1: {fileID: 0}
   spawn_point_2: {fileID: 0}
   spawn_time: 2
@@ -867,7 +899,10 @@ GameObject:
   - component: {fileID: 444286054}
   - component: {fileID: 444286053}
   - component: {fileID: 444286055}
+<<<<<<< HEAD
   - component: {fileID: 444286056}
+=======
+>>>>>>> parent of d90c765 (delete)
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -917,6 +952,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444286052}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5, y: -2.0739913, z: -10}
   m_LocalScale: {x: 0, y: 1, z: 1}
@@ -924,6 +960,15 @@ Transform:
   - {fileID: 1308675119}
   m_Father: {fileID: 0}
   m_RootOrder: 5
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: -2.0739913, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1308675119}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+>>>>>>> parent of d90c765 (delete)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &444286055
 MonoBehaviour:
@@ -942,6 +987,7 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1135146523}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+<<<<<<< HEAD
 --- !u!114 &444286056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -956,6 +1002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zoomMin: 1
   zoomMax: 3
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!224 &468397644 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
@@ -1427,7 +1475,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 6
+>>>>>>> parent of d90c765 (delete)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &657315370
 GameObject:
@@ -1662,11 +1714,31 @@ MonoBehaviour:
   player: {fileID: 1846733903}
   anim: {fileID: 0}
   fight: 0
+<<<<<<< HEAD
   death: 0
   death_time: 0.75
   damage: 0.2
   speed: 0.7
   dist_to_player: 0.3
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  death: 0
+<<<<<<< HEAD
+  death_time: 3
+  zombie_damage: 0
+  atack_time: 0
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+  death_time: 0.75
+  damage: 0.2
+>>>>>>> parent of 1c1f832 (pasha)
+  speed: 0.7
+  dist_to_player: 0.2
+>>>>>>> parent of d90c765 (delete)
   HP: 2
 --- !u!70 &796152630
 CapsuleCollider2D:
@@ -1681,8 +1753,13 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: -0.0041303635, y: 0.21605921}
   m_Size: {x: 0.23216438, y: 0.43132114}
+=======
+  m_Offset: {x: -0.005952835, y: -0.0136191845}
+  m_Size: {x: 0.22487259, y: 0.42767572}
+>>>>>>> parent of d90c765 (delete)
   m_Direction: 0
 --- !u!50 &796152631
 Rigidbody2D:
@@ -1756,6 +1833,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &837855214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,6 +1917,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837855214}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &881865001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,6 +1988,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bar: {fileID: 2035086792}
   fill: 0
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 1c1f832 (pasha)
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &945325269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,7 +2021,22 @@ Transform:
   m_Children:
   - {fileID: 796152627}
   - {fileID: 956178767}
+<<<<<<< HEAD
   - {fileID: 1729241929}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - {fileID: 1729241929}
+<<<<<<< HEAD
+  - {fileID: 1522508945}
+  - {fileID: 303399558}
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 1c1f832 (pasha)
+>>>>>>> parent of d90c765 (delete)
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1966,11 +2076,30 @@ MonoBehaviour:
   player: {fileID: 1846733903}
   anim: {fileID: 0}
   fight: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d90c765 (delete)
   death: 0
   death_time: 0.7
   damage: 0.1
   speed: 0.47
+<<<<<<< HEAD
   dist_to_player: 0.2
+=======
+<<<<<<< HEAD
+  dist_to_player: 0.3
+=======
+=======
+>>>>>>> parent of 9d58dac (ноум)
+  speed: 0.5
+  dist_to_player: 0.2
+>>>>>>> parent of 9d58dac (ноум)
+=======
+  dist_to_player: 0.2
+>>>>>>> parent of 1c1f832 (pasha)
+>>>>>>> parent of d90c765 (delete)
   HP: 1
 --- !u!50 &956178764
 Rigidbody2D:
@@ -2006,8 +2135,13 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: -0.047145844, y: 0.18843746}
   m_Size: {x: 0.2460556, y: 0.3847704}
+=======
+  m_Offset: {x: -0.047145844, y: -0.0032446384}
+  m_Size: {x: 0.2460556, y: 0.37838125}
+>>>>>>> parent of d90c765 (delete)
   m_Direction: 0
 --- !u!212 &956178766
 SpriteRenderer:
@@ -2068,7 +2202,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956178762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -26.925, y: -1.615, z: 30.444614}
+=======
+  m_LocalPosition: {x: -26.91, y: -1.6190457, z: 30.444614}
+>>>>>>> parent of d90c765 (delete)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 945325270}
@@ -2124,10 +2262,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   default_zombie: {fileID: 956178762}
   bibo_zombie: {fileID: 796152626}
+<<<<<<< HEAD
   bo_zombie: {fileID: 1729241928}
   spawn_point_1: {fileID: 1821008308}
   spawn_point_2: {fileID: 303200957}
   spawn_time: 5
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  bo_zombie: {fileID: 1729241928}
+  spawn_point_1: {fileID: 1821008308}
+  spawn_point_2: {fileID: 303200957}
+<<<<<<< HEAD
+  spawn_time: 10
+=======
+  spawn_point_1: {fileID: 1821008308}
+  spawn_point_2: {fileID: 303200957}
+  spawn_time: 3
+>>>>>>> parent of 9d58dac (ноум)
+=======
+  spawn_point_1: {fileID: 1821008308}
+  spawn_point_2: {fileID: 303200957}
+  spawn_time: 3
+>>>>>>> parent of 9d58dac (ноум)
+=======
+  spawn_time: 5
+>>>>>>> parent of 1c1f832 (pasha)
+>>>>>>> parent of d90c765 (delete)
   i: 0
   a: 0
 --- !u!4 &1064776805
@@ -2138,7 +2299,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064776803}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 5, y: -3.094037, z: -25.704288}
+=======
+  m_LocalPosition: {x: 5, y: -2.933156, z: -25.704288}
+>>>>>>> parent of d90c765 (delete)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1821008308}
@@ -2146,6 +2311,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1092186472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2295,6 +2461,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092186472}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &1109539183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2487,8 +2655,13 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -10.24, y: 5.12}
       - {x: -10.24, y: -4.2777486}
+<<<<<<< HEAD
       - {x: 10.08275, y: -4.2808757}
       - {x: 10.122063, y: 5.1396556}
+=======
+      - {x: 10.24, y: -3.9565525}
+      - {x: 10.24, y: 5.12}
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &1138592225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2574,7 +2747,11 @@ Transform:
   - {fileID: 733988574}
   - {fileID: 217524171}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 7
+>>>>>>> parent of d90c765 (delete)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1281225198 stripped
 GameObject:
@@ -2964,10 +3141,13 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 50
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 2929252285020697096, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of d90c765 (delete)
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
 --- !u!1 &1381936997
@@ -3439,7 +3619,10 @@ GameObject:
   - component: {fileID: 1641777157}
   - component: {fileID: 1641777156}
   - component: {fileID: 1641777155}
+<<<<<<< HEAD
   - component: {fileID: 1641777159}
+=======
+>>>>>>> parent of d90c765 (delete)
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3476,12 +3659,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.5
+=======
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 2
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+>>>>>>> parent of d90c765 (delete)
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -3499,7 +3691,11 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
+<<<<<<< HEAD
   m_PixelPerfect: 1
+=======
+  m_PixelPerfect: 0
+>>>>>>> parent of d90c765 (delete)
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -3521,18 +3717,24 @@ RectTransform:
   m_Children:
   - {fileID: 110066929}
   - {fileID: 468397644}
+<<<<<<< HEAD
   - {fileID: 1855234947}
   - {fileID: 2047129969}
   - {fileID: 210235479}
   - {fileID: 2035086791}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+>>>>>>> parent of d90c765 (delete)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!114 &1641777159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3546,6 +3748,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 2047129966}
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &1683595780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3628,6 +3832,11 @@ Transform:
   m_Father: {fileID: 1280245516}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &1729241928
 GameObject:
   m_ObjectHideFlags: 0
@@ -3791,6 +4000,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 9d58dac (ноум)
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &1733915708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3980,7 +4196,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821008307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -9.586, y: 0, z: 20.56054}
+=======
+  m_LocalPosition: {x: -8.56, y: 0, z: 20.56054}
+>>>>>>> parent of d90c765 (delete)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1064776805}
@@ -4000,7 +4220,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   default_zombie: {fileID: 0}
   bibo_zombie: {fileID: 0}
+<<<<<<< HEAD
   bo_zombie: {fileID: 0}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  bo_zombie: {fileID: 0}
+<<<<<<< HEAD
+  karl_zombie: {fileID: 0}
+  lara_zombie: {fileID: 0}
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 1c1f832 (pasha)
+>>>>>>> parent of d90c765 (delete)
   spawn_point_1: {fileID: 0}
   spawn_point_2: {fileID: 0}
   spawn_time: 2
@@ -4133,10 +4368,17 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
+<<<<<<< HEAD
   m_Mass: 0.08495241
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0.8
+=======
+  m_Mass: 0.09071215
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0.4
+>>>>>>> parent of d90c765 (delete)
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -4155,8 +4397,13 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: -0.009867907, y: 0.0023761988}
   m_Size: {x: 0.2312398, y: 0.41700244}
+=======
+  m_Offset: {x: -0.009867907, y: 0.006904483}
+  m_Size: {x: 0.2312398, y: 0.40794587}
+>>>>>>> parent of d90c765 (delete)
   m_Direction: 0
 --- !u!95 &1846733908
 Animator:
@@ -4177,6 +4424,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
 --- !u!1 &1855234946
 GameObject:
   m_ObjectHideFlags: 0
@@ -4310,6 +4558,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1855234946}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &1896137088
 GameObject:
   m_ObjectHideFlags: 0
@@ -4474,6 +4724,7 @@ Transform:
   m_Father: {fileID: 1280245516}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1935422600
 GameObject:
   m_ObjectHideFlags: 0
@@ -4553,6 +4804,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935422600}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1001 &2004661773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4626,7 +4879,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
       propertyPath: m_AnchoredPosition.x
+<<<<<<< HEAD
       value: 853
+=======
+      value: 1115
+>>>>>>> parent of d90c765 (delete)
       objectReference: {fileID: 0}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4658,6 +4915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
+<<<<<<< HEAD
 --- !u!1 &2035086790
 GameObject:
   m_ObjectHideFlags: 0
@@ -4809,6 +5067,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+>>>>>>> parent of d90c765 (delete)
 --- !u!1 &2061650154
 GameObject:
   m_ObjectHideFlags: 0
@@ -5055,4 +5315,7 @@ Transform:
   m_Father: {fileID: 1280245516}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 >>>>>>> parent of 1c1f832 (pasha)
+=======
+>>>>>>> parent of d90c765 (delete)
