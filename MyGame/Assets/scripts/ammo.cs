@@ -11,11 +11,11 @@ public class ammo : MonoBehaviour
     public float death_time;
     public bool death;
     public Animator anim;
-    private Rigidbody2D rb;
     void Start()
     {
         Invoke("DestroyAmmo", destroyTime);
         anim = GetComponent<Animator>();
+<<<<<<< HEAD
         rb = GetComponent<Rigidbody2D>();
 =======
     void Start()
@@ -27,15 +27,14 @@ public class ammo : MonoBehaviour
     {
         Invoke("DestroyAmmo", destroyTime);
 >>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 1c1f832 (pasha)
     }
 
     
     void Update()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
-        var direction = rb.velocity;
-        var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 
     void DestroyAmmo()

@@ -9,12 +9,15 @@ public class spawn : MonoBehaviour
 <<<<<<< HEAD
 <<<<<<< HEAD
     public GameObject bo_zombie;
+<<<<<<< HEAD
     public GameObject karl_zombie;
     public GameObject lara_zombie;
 =======
 >>>>>>> parent of 9d58dac (ноум)
 =======
 >>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 1c1f832 (pasha)
     private GameObject zombie;
     public Transform spawn_point_1;
     private Transform spawn_point;
@@ -76,12 +79,17 @@ public class spawn : MonoBehaviour
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         int zombie_value = Random.Range(0, 99);
         if (zombie_value<10)
+=======
+        int zombie_value = Random.Range(0, 9);
+        if (zombie_value<1)
+>>>>>>> parent of 1c1f832 (pasha)
         {
             zombie = bo_zombie;
         }
-        else if(zombie_value>=10&&zombie_value<25)
+        else if(zombie_value>=2&&zombie_value<5)
         {
             zombie =bibo_zombie;
 =======
@@ -91,6 +99,7 @@ public class spawn : MonoBehaviour
             zombie = bibo_zombie;
 >>>>>>> parent of 9d58dac (ноум)
         }
+<<<<<<< HEAD
         else if (zombie_value >= 25 && zombie_value < 40)
         {
             zombie = karl_zombie;
@@ -105,6 +114,8 @@ public class spawn : MonoBehaviour
             zombie = bibo_zombie;
 >>>>>>> parent of 9d58dac (ноум)
         }
+=======
+>>>>>>> parent of 1c1f832 (pasha)
         else
         {
             zombie = default_zombie;

@@ -32,10 +32,14 @@ public class shoting : MonoBehaviour
         float rotateZ = Mathf.Atan2(joystick.Vertical,joystick.Horizontal) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (reload == Reload)
         {
             fireFrequency = StartCoroutine(RELOAD());
         }
+=======
+
+>>>>>>> parent of 1c1f832 (pasha)
 
 <<<<<<< HEAD
 =======
@@ -82,6 +86,7 @@ public class shoting : MonoBehaviour
         
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     public void Shot()
     {
@@ -95,6 +100,12 @@ public class shoting : MonoBehaviour
     {
         fireFrequency = StartCoroutine(FireDelay());
 >>>>>>> parent of d97c624 (change5)
+=======
+   
+    public void Shot()
+    {
+       fireFrequency = StartCoroutine(FireDelay());
+>>>>>>> parent of 1c1f832 (pasha)
     }
     public int i = 0;
     public int Reload;
@@ -111,18 +122,14 @@ public class shoting : MonoBehaviour
             {
                 i=10;
             }
-            
+            if (reload == Reload)
+            {
+                yield return new WaitForSeconds(ReloadTime);
+                reload = 0;
+            }
 
         }
         
-    }
-    IEnumerator RELOAD()
-    {
-        while (reload == Reload)
-        {
-            yield return new WaitForSeconds(ReloadTime);
-            reload = 0;
-        }
     }
 
     
