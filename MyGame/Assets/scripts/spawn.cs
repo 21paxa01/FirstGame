@@ -7,6 +7,8 @@ public class spawn : MonoBehaviour
     public GameObject default_zombie;
     public GameObject bibo_zombie;
     public GameObject bo_zombie;
+    public GameObject karl_zombie;
+    public GameObject lara_zombie;
     private GameObject zombie;
     public Transform spawn_point_1;
     private Transform spawn_point;
@@ -72,14 +74,22 @@ public class spawn : MonoBehaviour
     }
     void Zombies()
     {
-        int zombie_value = Random.Range(0, 9);
-        if (zombie_value<1)
+        int zombie_value = Random.Range(0, 99);
+        if (zombie_value<10)
         {
             zombie = bo_zombie;
         }
-        else if(zombie_value>=2&&zombie_value<5)
+        else if(zombie_value>=10&&zombie_value<25)
         {
             zombie =bibo_zombie;
+        }
+        else if (zombie_value >= 25 && zombie_value < 40)
+        {
+            zombie = karl_zombie;
+        }
+        else if (zombie_value >= 40 && zombie_value < 55)
+        {
+            zombie = lara_zombie;
         }
         else
         {
