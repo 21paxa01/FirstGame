@@ -37,8 +37,12 @@ public class shoting : MonoBehaviour
             fireFrequency = StartCoroutine(RELOAD());
         }
 
+<<<<<<< HEAD
 =======
 
+        
+>>>>>>> parent of 9d58dac (ноум)
+=======
         
 >>>>>>> parent of 9d58dac (ноум)
 

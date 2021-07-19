@@ -610,9 +610,12 @@ MonoBehaviour:
   default_zombie: {fileID: 0}
   bibo_zombie: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   bo_zombie: {fileID: 0}
   karl_zombie: {fileID: 0}
   lara_zombie: {fileID: 0}
+=======
+>>>>>>> parent of 9d58dac (ноум)
 =======
 >>>>>>> parent of 9d58dac (ноум)
   spawn_point_1: {fileID: 0}
@@ -1755,10 +1758,13 @@ MonoBehaviour:
   anim: {fileID: 0}
   fight: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   death: 0
   death_time: 3
   zombie_damage: 0
   atack_time: 0
+=======
+>>>>>>> parent of 9d58dac (ноум)
 =======
 >>>>>>> parent of 9d58dac (ноум)
   speed: 0.7
@@ -1853,6 +1859,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &837855214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,6 +1941,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 =======
 >>>>>>> parent of 9d58dac (ноум)
+=======
+>>>>>>> parent of 9d58dac (ноум)
 --- !u!1 &945325269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,9 +1973,12 @@ Transform:
   - {fileID: 796152627}
   - {fileID: 956178767}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1729241929}
   - {fileID: 1522508945}
   - {fileID: 303399558}
+=======
+>>>>>>> parent of 9d58dac (ноум)
 =======
 >>>>>>> parent of 9d58dac (ноум)
   m_Father: {fileID: 0}
@@ -2009,6 +2021,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   fight: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   death: 0
   death_time: 3
   zombie_damage: 0
@@ -2016,6 +2029,8 @@ MonoBehaviour:
   speed: 0.47
   dist_to_player: 0.3
 =======
+=======
+>>>>>>> parent of 9d58dac (ноум)
   speed: 0.5
   dist_to_player: 0.2
 >>>>>>> parent of 9d58dac (ноум)
@@ -2173,12 +2188,18 @@ MonoBehaviour:
   default_zombie: {fileID: 956178762}
   bibo_zombie: {fileID: 796152626}
 <<<<<<< HEAD
+<<<<<<< HEAD
   bo_zombie: {fileID: 1729241928}
   karl_zombie: {fileID: 1522508944}
   lara_zombie: {fileID: 303399552}
   spawn_point_1: {fileID: 1821008308}
   spawn_point_2: {fileID: 303200957}
   spawn_time: 10
+=======
+  spawn_point_1: {fileID: 1821008308}
+  spawn_point_2: {fileID: 303200957}
+  spawn_time: 3
+>>>>>>> parent of 9d58dac (ноум)
 =======
   spawn_point_1: {fileID: 1821008308}
   spawn_point_2: {fileID: 303200957}
@@ -3682,6 +3703,7 @@ Transform:
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1729241928
 GameObject:
   m_ObjectHideFlags: 0
@@ -3846,6 +3868,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> parent of 9d58dac (ноум)
 =======
 >>>>>>> parent of 9d58dac (ноум)
 --- !u!1 &1733915708
@@ -4058,9 +4082,12 @@ MonoBehaviour:
   default_zombie: {fileID: 0}
   bibo_zombie: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   bo_zombie: {fileID: 0}
   karl_zombie: {fileID: 0}
   lara_zombie: {fileID: 0}
+=======
+>>>>>>> parent of 9d58dac (ноум)
 =======
 >>>>>>> parent of 9d58dac (ноум)
   spawn_point_1: {fileID: 0}

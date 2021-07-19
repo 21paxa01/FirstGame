@@ -7,9 +7,12 @@ public class spawn : MonoBehaviour
     public GameObject default_zombie;
     public GameObject bibo_zombie;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject bo_zombie;
     public GameObject karl_zombie;
     public GameObject lara_zombie;
+=======
+>>>>>>> parent of 9d58dac (ноум)
 =======
 >>>>>>> parent of 9d58dac (ноум)
     private GameObject zombie;
@@ -77,6 +80,7 @@ public class spawn : MonoBehaviour
     void Zombies()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         int zombie_value = Random.Range(0, 99);
         if (zombie_value<10)
         {
@@ -99,6 +103,12 @@ public class spawn : MonoBehaviour
         else if (zombie_value >= 40 && zombie_value < 55)
         {
             zombie = lara_zombie;
+=======
+        int zombie_value = Random.Range(0, 3);
+        if (zombie_value == 0)
+        {
+            zombie = bibo_zombie;
+>>>>>>> parent of 9d58dac (ноум)
         }
         else
         {

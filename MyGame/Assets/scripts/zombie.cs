@@ -9,12 +9,16 @@ public class zombie : MonoBehaviour
     public Animator anim;
     public bool fight ;
 <<<<<<< HEAD
+<<<<<<< HEAD
     public bool death;
     public float death_time;
     public float zombie_damage;
     public float atack_time;
     private float distToPlayer;
 
+=======
+    
+>>>>>>> parent of 9d58dac (ноум)
 =======
     
 >>>>>>> parent of 9d58dac (ноум)
@@ -29,7 +33,11 @@ public class zombie : MonoBehaviour
     void Update()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         distToPlayer = Vector2.Distance(transform.position, player.transform.position);
+=======
+        float distToPlayer = Vector2.Distance(transform.position, player.position);
+>>>>>>> parent of 9d58dac (ноум)
 =======
         float distToPlayer = Vector2.Distance(transform.position, player.position);
 >>>>>>> parent of 9d58dac (ноум)
@@ -67,12 +75,15 @@ public class zombie : MonoBehaviour
             if (hp == HP)
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 StartCoroutine(Die());
             }
         }
     }
     
 =======
+=======
+>>>>>>> parent of 9d58dac (ноум)
                 Destroy(gameObject);
                 hp=0;
             }
