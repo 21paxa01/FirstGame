@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:MyGame/Assets/animation/bibo_death.anim.meta
 <<<<<<< HEAD
 guid: 72aa508550c9e8f4e8b0f908d1106e47
 NativeFormatImporter:
@@ -24,6 +25,11 @@ DefaultImporter:
 guid: 72aa508550c9e8f4e8b0f908d1106e47
 NativeFormatImporter:
 >>>>>>>> parent of a08bdef (Revert ""):MyGame/Assets/animation/bibo_death.anim.meta
+=======
+guid: 3b9c9e76e7ebcbc4a8f337429e72ece2
+folderAsset: yes
+DefaultImporter:
+>>>>>>> parent of de2e956 (123):MyGame/Assets/sprites/new.meta
   externalObjects: {}
   mainObjectFileID: 7400000
 >>>>>>> parent of a08bdef (Revert "")

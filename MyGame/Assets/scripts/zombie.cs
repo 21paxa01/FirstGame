@@ -22,6 +22,7 @@ public class zombie : MonoBehaviour
     public Transform player;
     public Animator anim;
     public bool fight ;
+<<<<<<< HEAD
 
 >>>>>>> parent of d90c765 (delete)
 =======
@@ -29,6 +30,9 @@ public class zombie : MonoBehaviour
     public Animator anim;
     public bool fight ;
 >>>>>>> parent of a08bdef (Revert "")
+=======
+<<<<<<< HEAD
+>>>>>>> parent of de2e956 (123)
     public bool death;
     public float death_time;
     public float zombie_damage;
@@ -42,6 +46,7 @@ public class zombie : MonoBehaviour
     public float fill;
 =======
     
+<<<<<<< HEAD
     private float distToPlayer;
 
 
@@ -49,6 +54,9 @@ public class zombie : MonoBehaviour
 
 =======
 >>>>>>> parent of a08bdef (Revert "")
+=======
+>>>>>>> parent of 9d58dac (ноум)
+>>>>>>> parent of de2e956 (123)
 
     public float speed;
     void Start()
@@ -66,19 +74,26 @@ public class zombie : MonoBehaviour
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bar.fillAmount = fill;
+=======
+>>>>>>> parent of de2e956 (123)
         distToPlayer = Vector2.Distance(transform.position, player.transform.position);
 =======
 
         
 
         float distToPlayer = Vector2.Distance(transform.position, player.position);
+<<<<<<< HEAD
 
 
 >>>>>>> parent of d90c765 (delete)
 =======
         distToPlayer = Vector2.Distance(transform.position, player.transform.position);
 >>>>>>> parent of a08bdef (Revert "")
+=======
+>>>>>>> parent of 9d58dac (ноум)
+>>>>>>> parent of de2e956 (123)
         if (distToPlayer <= dist_to_player)
         {
             physik.velocity = new Vector2(0, 0);
@@ -172,10 +187,15 @@ public class zombie : MonoBehaviour
             Destroy(other.gameObject);
             if (hp == HP)
             {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> parent of de2e956 (123)
                 StartCoroutine(Die());
             }
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     IEnumerator Bar_damage()
     {
@@ -194,6 +214,10 @@ public class zombie : MonoBehaviour
                 fight = false;
 =======
 
+=======
+    
+=======
+>>>>>>> parent of de2e956 (123)
                 Destroy(gameObject);
 >>>>>>> parent of d90c765 (delete)
             }

@@ -6,6 +6,10 @@ public class spawn : MonoBehaviour
 {
     public GameObject default_zombie;
     public GameObject bibo_zombie;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> parent of de2e956 (123)
     public GameObject bo_zombie;
 =======
 
@@ -17,7 +21,11 @@ public class spawn : MonoBehaviour
 
 >>>>>>> parent of d90c765 (delete)
 =======
+<<<<<<< HEAD
 >>>>>>> parent of a08bdef (Revert "")
+=======
+>>>>>>> parent of 9d58dac (ноум)
+>>>>>>> parent of de2e956 (123)
     private GameObject zombie;
     public Transform spawn_point_1;
     private Transform spawn_point;
@@ -119,9 +127,12 @@ public class spawn : MonoBehaviour
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         int zombie_value = Random.Range(0, 9);
         if (zombie_value<1)
 =======
+=======
+>>>>>>> parent of de2e956 (123)
         int zombie_value = Random.Range(0, 99);
         if (zombie_value<10)
 >>>>>>> parent of a08bdef (Revert "")

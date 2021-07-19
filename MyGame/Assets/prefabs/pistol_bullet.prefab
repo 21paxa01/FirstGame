@@ -84,15 +84,19 @@ SpriteRenderer:
   m_SortingOrder: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: -9005513935387559360, guid: 12bba1b15dba2e6498fc4e5802d84d69, type: 3}
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> parent of de2e956 (123)
   m_Sprite: {fileID: -5541021907839725412, guid: ff1d6842c1a495e45aa7d94427894ef4, type: 3}
 =======
   m_Sprite: {fileID: -8725994145527908121, guid: f6535bb54b6ea5643b075c8d8a9e4595, type: 3}
 >>>>>>> parent of 9d58dac (ноум)
+<<<<<<< HEAD
 =======
   m_Sprite: {fileID: -8725994145527908121, guid: f6535bb54b6ea5643b075c8d8a9e4595, type: 3}
 >>>>>>> parent of 9d58dac (ноум)
@@ -103,6 +107,8 @@ SpriteRenderer:
 =======
   m_Sprite: {fileID: -5541021907839725412, guid: ff1d6842c1a495e45aa7d94427894ef4, type: 3}
 >>>>>>> parent of a08bdef (Revert "")
+=======
+>>>>>>> parent of de2e956 (123)
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

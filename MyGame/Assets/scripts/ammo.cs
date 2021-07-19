@@ -6,6 +6,10 @@ public class ammo : MonoBehaviour
 {
     public float speed;
     public float destroyTime;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> parent of de2e956 (123)
     public float death_time;
     public bool death;
     public Animator anim;
@@ -27,10 +31,14 @@ public class ammo : MonoBehaviour
     void Start()
     {
         Invoke("DestroyAmmo", destroyTime);
+<<<<<<< HEAD
 
 =======
         rb = GetComponent<Rigidbody2D>();
 >>>>>>> parent of a08bdef (Revert "")
+=======
+>>>>>>> parent of 9d58dac (ноум)
+>>>>>>> parent of de2e956 (123)
     }
 
 

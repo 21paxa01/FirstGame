@@ -43,6 +43,7 @@ public class shoting : MonoBehaviour
             fireFrequency = StartCoroutine(RELOAD());
         }
 
+<<<<<<< HEAD
 >>>>>>> parent of a08bdef (Revert "")
 
 
@@ -50,6 +51,12 @@ public class shoting : MonoBehaviour
   
         float rotateZ = Mathf.Atan2(joystick.Vertical,joystick.Horizontal) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
+=======
+=======
+
+        
+>>>>>>> parent of 9d58dac (ноум)
+>>>>>>> parent of de2e956 (123)
 
 >>>>>>> parent of d90c765 (delete)
         Vector3 LocalScale = Vector3.one;
