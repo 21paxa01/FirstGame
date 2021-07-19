@@ -81,6 +81,7 @@ public class shoting : MonoBehaviour
         
         
     }
+<<<<<<< HEAD
 
     public void Shot()
     {
@@ -89,6 +90,11 @@ public class shoting : MonoBehaviour
             fireFrequency = StartCoroutine(FireDelay());
 
         }
+=======
+    public void Shot()
+    {
+        fireFrequency = StartCoroutine(FireDelay());
+>>>>>>> parent of d97c624 (change5)
     }
     public int i = 0;
     public int Reload;

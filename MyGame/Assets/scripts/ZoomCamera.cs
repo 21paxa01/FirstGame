@@ -4,33 +4,27 @@ using UnityEngine;
 
 public class ZoomCamera : MonoBehaviour
 {
-    public float zoomMin;
-    public float zoomMax;
+    public float zoomSpeed = 1;
+    public float targetOrtho;
+    public float smoothSpeed = 2.0f;
+    public float minOrtho = 1.0f;
+    public float maxOrtho = 20.0f;
+
     void Start()
     {
-       
+        targetOrtho = Camera.main.orthographicSize;
     }
 
     void Update()
     {
-        if (Input.touchCount == 2)
+
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (scroll != 0.0f)
         {
-            Touch touchZero = Input.GetTouch(0);
-            Touch touchOne = Input.GetTouch(1);
+            targetOrtho -= scroll * zoomSpeed;
+            targetOrtho = Mathf.Clamp(targetOrtho, minOrtho, maxOrtho);
+        }
 
-            Vector2 touchZeroLasPos = touchZero.position - touchZero.deltaPosition;
-            Vector2 touchOneLasPos = touchOne.position - touchOne.deltaPosition;
-
-            float distTouch = (touchZeroLasPos - touchOneLasPos).magnitude;
-            float currentDistTouch = (touchZero.position - touchOne.position).magnitude;
-
-            float difference = currentDistTouch - distTouch;
-            zoom(difference * 0.01f);
-        }     
-
-    }
-    void zoom(float increment)
-    {
-        Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomMin, zoomMax);
+        Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
     }
 }
