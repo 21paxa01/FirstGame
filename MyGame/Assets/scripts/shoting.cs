@@ -29,10 +29,21 @@ public class shoting : MonoBehaviour
     void Update()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         float rotateZ = Mathf.Atan2(joystick.Vertical, joystick.Horizontal) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
 
+=======
+
+        float rotateZ = Mathf.Atan2(joystick.Vertical, joystick.Horizontal) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + offset);
+        if (reload == Reload)
+        {
+            fireFrequency = StartCoroutine(RELOAD());
+        }
+
+>>>>>>> parent of a08bdef (Revert "")
 
 
 =======
@@ -103,6 +114,9 @@ public class shoting : MonoBehaviour
         while (i<10)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a08bdef (Revert "")
             if (reload < Reload)
             {
                 reload += 1;
@@ -111,6 +125,7 @@ public class shoting : MonoBehaviour
                 Instantiate(ammo, shotDir.position, transform.rotation);
                 yield return new WaitForSeconds(startTime);
             }
+<<<<<<< HEAD
 =======
             reload += 1;
             float rotateZ = Mathf.Atan2(joystick.Vertical, joystick.Horizontal) * Mathf.Rad2Deg;
@@ -118,6 +133,8 @@ public class shoting : MonoBehaviour
             Instantiate(ammo, shotDir.position, transform.rotation) ;
             yield return new WaitForSeconds(startTime);
 >>>>>>> parent of d90c765 (delete)
+=======
+>>>>>>> parent of a08bdef (Revert "")
             if (shot==false)
             {
                 i=10;

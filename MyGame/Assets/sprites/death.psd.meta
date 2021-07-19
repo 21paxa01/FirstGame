@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: 16e05c1c75bb53d4498201e3533dfd72
+guid: 55f797396e4e1104b9e1a3ccc18c3f34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6249766486007585643
-    second: bibo rans_0
+      213: -9192638271177797499
+    second: death_0
   - first:
-      213: -8621850740258710212
-    second: bibo rans_1
+      213: 8559509556701815258
+    second: death_1
   - first:
-      213: 1337765945389607060
-    second: bibo rans_2
+      213: -5286180679089938723
+    second: death_2
   - first:
-      213: -3896071858098120217
-    second: bibo rans_3
+      213: -1891855120789479077
+    second: death_3
   - first:
-      213: -7204854464199204662
-    second: bibo rans_4
+      213: -5582970244224541034
+    second: death_4
   - first:
-      213: 6984040450762802602
-    second: bibo rans_5
+      213: 830680230883465780
+    second: death_5
   - first:
-      213: -112014871676558577
-    second: bibo rans_6
-  - first:
-      213: -8088557184414519579
-    second: bibo rans_7
+      213: 6596258498841548387
+    second: death_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -92,7 +89,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +113,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,169 +124,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bibo rans_0
+      name: death_0
       rect:
         serializedVersion: 2
-        x: 156
-        y: 1158
-        width: 162
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 519
+        y: 43
+        width: 25
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59460606e7e5449a0800000000000000
-      internalID: -6249766486007585643
+      spriteID: 58059c172303d6080800000000000000
+      internalID: -9192638271177797499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibo rans_1
+      name: death_1
       rect:
         serializedVersion: 2
-        x: 408
-        y: 1158
-        width: 162
-        height: 252
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 455
+        y: 43
+        width: 32
+        height: 39
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3dd078ae68095880800000000000000
-      internalID: -8621850740258710212
+      spriteID: ad1e5c2779c79c670800000000000000
+      internalID: 8559509556701815258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibo rans_2
+      name: death_2
       rect:
         serializedVersion: 2
-        x: 666
-        y: 1158
-        width: 162
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 337
+        y: 44
+        width: 34
+        height: 30
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 498ef8f1a03b09210800000000000000
-      internalID: 1337765945389607060
+      spriteID: dde9f440ea6b3a6b0800000000000000
+      internalID: -5286180679089938723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibo rans_3
+      name: death_3
       rect:
         serializedVersion: 2
-        x: 936
-        y: 1152
-        width: 162
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 286
+        y: 43
+        width: 35
+        height: 29
+      alignment: 9
+      pivot: {x: 0.8, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e95aae894f5ee9c0800000000000000
-      internalID: -3896071858098120217
+      spriteID: b51e6d68ac7ceb5e0800000000000000
+      internalID: -1891855120789479077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibo rans_4
+      name: death_4
       rect:
         serializedVersion: 2
-        x: 1224
-        y: 1152
-        width: 162
-        height: 258
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 204
+        y: 42
+        width: 48
+        height: 20
+      alignment: 9
+      pivot: {x: 0.9, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac0e40ba907330c90800000000000000
-      internalID: -7204854464199204662
+      spriteID: 69e9b69842e4582b0800000000000000
+      internalID: -5582970244224541034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibo rans_5
+      name: death_5
       rect:
         serializedVersion: 2
-        x: 168
-        y: 798
-        width: 126
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 91
+        y: 41
+        width: 69
+        height: 9
+      alignment: 9
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa50da479cb4ce060800000000000000
-      internalID: 6984040450762802602
+      spriteID: 43a9fb3d44b278b00800000000000000
+      internalID: 830680230883465780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibo rans_6
+      name: death_6
       rect:
         serializedVersion: 2
-        x: 330
-        y: 804
-        width: 126
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 41
+        width: 69
+        height: 9
+      alignment: 9
+      pivot: {x: 1.1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f036824511b027ef0800000000000000
-      internalID: -112014871676558577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bibo rans_7
-      rect:
-        serializedVersion: 2
-        x: 492
-        y: 810
-        width: 126
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5eee985881cafbf80800000000000000
-      internalID: -8088557184414519579
+      spriteID: 3661a1ef72e9a8b50800000000000000
+      internalID: 6596258498841548387
       vertices: []
       indices: 
       edges: []

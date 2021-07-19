@@ -14,9 +14,13 @@ GameObject:
   - component: {fileID: 2746150021542633273}
   - component: {fileID: 6925158486665002125}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 8072849193793790236}
 =======
 >>>>>>> parent of d90c765 (delete)
+=======
+  - component: {fileID: 8072849193793790236}
+>>>>>>> parent of a08bdef (Revert "")
   m_Layer: 0
   m_Name: pistol_bullet
   m_TagString: Untagged
@@ -79,6 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Sprite: {fileID: -9005513935387559360, guid: 12bba1b15dba2e6498fc4e5802d84d69, type: 3}
 =======
 <<<<<<< HEAD
@@ -95,6 +100,9 @@ SpriteRenderer:
   m_Sprite: {fileID: -9005513935387559360, guid: 12bba1b15dba2e6498fc4e5802d84d69, type: 3}
 >>>>>>> parent of 1c1f832 (pasha)
 >>>>>>> parent of d90c765 (delete)
+=======
+  m_Sprite: {fileID: -5541021907839725412, guid: ff1d6842c1a495e45aa7d94427894ef4, type: 3}
+>>>>>>> parent of a08bdef (Revert "")
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,7 +142,13 @@ MonoBehaviour:
   speed: 5
 >>>>>>> parent of 1c1f832 (pasha)
   destroyTime: 5
+<<<<<<< HEAD
 >>>>>>> parent of d90c765 (delete)
+=======
+  death_time: 0.2
+  death: 0
+  anim: {fileID: 0}
+>>>>>>> parent of a08bdef (Revert "")
 --- !u!50 &2746150021542633273
 Rigidbody2D:
   serializedVersion: 4
@@ -183,6 +197,9 @@ BoxCollider2D:
   m_Size: {x: 0.05, y: 0.02}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a08bdef (Revert "")
 --- !u!95 &8072849193793790236
 Animator:
   serializedVersion: 3
@@ -202,5 +219,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
 =======
 >>>>>>> parent of d90c765 (delete)
+=======
+>>>>>>> parent of a08bdef (Revert "")

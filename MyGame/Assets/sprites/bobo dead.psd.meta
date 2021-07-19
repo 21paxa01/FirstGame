@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 0630a07ecf2be7f4cb219deda3316ae1
+guid: 66b39b6c292e6064aa614c70b0b92f9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5566174042112965727
-    second: "\u0442\u0440\u0443\u0431\u0430_0"
+      213: -5726828806627032440
+    second: bobo dead_0
   - first:
-      213: 4457597064535619183
-    second: "\u0442\u0440\u0443\u0431\u0430_1"
+      213: -8667336280405936817
+    second: bobo dead_1
   - first:
-      213: 3136287136523546147
-    second: "\u0442\u0440\u0443\u0431\u0430_2"
+      213: -5808046979561529252
+    second: bobo dead_2
   - first:
-      213: 5744381501183931288
-    second: "\u0442\u0440\u0443\u0431\u0430_3"
+      213: -5774904597019930133
+    second: bobo dead_3
   - first:
-      213: -7565434434402260836
-    second: "\u0442\u0440\u0443\u0431\u0430_4"
+      213: 4269539755467506004
+    second: bobo dead_4
+  - first:
+      213: -2871154107314766852
+    second: bobo dead_5
+  - first:
+      213: -6751112809353999198
+    second: bobo dead_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -47,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -83,7 +89,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,7 +113,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,85 +124,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u0442\u0440\u0443\u0431\u0430_0"
+      name: bobo dead_0
       rect:
         serializedVersion: 2
-        x: 28
-        y: 251
-        width: 450
-        height: 978
+        x: 475
+        y: 37
+        width: 32
+        height: 39
       alignment: 9
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5cb42aecc50f3d40800000000000000
-      internalID: 5566174042112965727
+      spriteID: 882858bda873680b0800000000000000
+      internalID: -5726828806627032440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u0442\u0440\u0443\u0431\u0430_1"
+      name: bobo dead_1
       rect:
         serializedVersion: 2
-        x: 544
-        y: 221
-        width: 456
-        height: 1008
+        x: 417
+        y: 37
+        width: 30
+        height: 33
       alignment: 9
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66387fa9e09cdd30800000000000000
-      internalID: 4457597064535619183
+      spriteID: f457c81139f67b780800000000000000
+      internalID: -8667336280405936817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u0442\u0440\u0443\u0431\u0430_2"
+      name: bobo dead_2
       rect:
         serializedVersion: 2
-        x: 1005
-        y: 56
-        width: 462
-        height: 1030
+        x: 357
+        y: 37
+        width: 34
+        height: 31
       alignment: 9
-      pivot: {x: -0.03, y: 0}
+      pivot: {x: 0.7, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32eec1ea884568b20800000000000000
-      internalID: 3136287136523546147
+      spriteID: c5064706b0ca56fa0800000000000000
+      internalID: -5808046979561529252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u0442\u0440\u0443\u0431\u0430_4"
+      name: bobo dead_3
       rect:
         serializedVersion: 2
-        x: 1493
-        y: 324
-        width: 450
-        height: 990
+        x: 306
+        y: 37
+        width: 35
+        height: 29
       alignment: 9
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.8, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c98e1fd177d220790800000000000000
-      internalID: -7565434434402260836
+      spriteID: be15bd2adda6bdfa0800000000000000
+      internalID: -5774904597019930133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobo dead_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 36
+        width: 48
+        height: 20
+      alignment: 9
+      pivot: {x: 0.9, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4518c0f59c3704b30800000000000000
+      internalID: 4269539755467506004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobo dead_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 35
+        width: 69
+        height: 9
+      alignment: 9
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb791a2d8c9728d0800000000000000
+      internalID: -2871154107314766852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobo dead_6
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 35
+        width: 69
+        height: 9
+      alignment: 9
+      pivot: {x: 1.1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac8dd73baa3f42a0800000000000000
+      internalID: -6751112809353999198
       vertices: []
       indices: 
       edges: []

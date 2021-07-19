@@ -1,24 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class run : MonoBehaviour 
+using UnityEngine.UI;
+public class bill : MonoBehaviour 
 {
     
     public Rigidbody2D rb;
     public Animator anim;
     public Joystick joystick_move;
     public Joystick joystick_shot;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        
         GroundCheckRadius = GroundCheck.GetComponent<CircleCollider2D>().radius;
     }
     
     void Update()
     {
-
         Walk();
         Reflect();
         Jump();
@@ -90,7 +90,7 @@ public class run : MonoBehaviour
         }
     }
 
-   
+
     public bool onGround;
     public LayerMask Ground;
     public Transform GroundCheck;

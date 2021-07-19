@@ -6,7 +6,6 @@ public class ammo : MonoBehaviour
 {
     public float speed;
     public float destroyTime;
-<<<<<<< HEAD
     public float death_time;
     public bool death;
     public Animator anim;
@@ -14,6 +13,7 @@ public class ammo : MonoBehaviour
     {
         Invoke("DestroyAmmo", destroyTime);
         anim = GetComponent<Animator>();
+<<<<<<< HEAD
     }
 
     
@@ -28,6 +28,9 @@ public class ammo : MonoBehaviour
     {
         Invoke("DestroyAmmo", destroyTime);
 
+=======
+        rb = GetComponent<Rigidbody2D>();
+>>>>>>> parent of a08bdef (Revert "")
     }
 
 
@@ -42,6 +45,9 @@ public class ammo : MonoBehaviour
         Destroy(gameObject);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of a08bdef (Revert "")
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.name == "road u")
@@ -59,8 +65,11 @@ public class ammo : MonoBehaviour
         
     }
 
+<<<<<<< HEAD
 }
 =======
+=======
+>>>>>>> parent of a08bdef (Revert "")
 }
 
 
